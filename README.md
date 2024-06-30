@@ -6,7 +6,7 @@ The project serves as a practical demonstration of applying deep learning techni
 
 <img width=1000 src = 'reports/brain.jpg'>
 
-<img width=500 src = 'reports/loss.jpg'><img width=500 src = 'reports/accuracy.jpg'>
+<img width=350px src = 'reports/loss.jpg'><img width=350px src = 'reports/accuracy.jpg'>
 
 
 
