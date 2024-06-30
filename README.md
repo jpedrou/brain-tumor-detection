@@ -4,7 +4,7 @@ This repository aims to implement a Convolutional Neural Network (CNN) for brain
 
 The project serves as a practical demonstration of applying deep learning techniques to medical image analysis, specifically for brain tumor detection, with accessibility in mind through a user-friendly interface.
 
-<img width=1000 src = 'reports/brain.jpg'>
+<img width=1000 src = 'reports/brain.png'>
 
 <img width=400px src = 'reports/loss.jpg'><img width=400px src = 'reports/accuracy.jpg'>
 
