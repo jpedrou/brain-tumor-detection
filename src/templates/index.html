@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/index.css">
+    <title>Brain Tumor Detection</title>
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <span class="navbar-text">
+            Brain Tumor Detection with Deep Learning
+          </span>
+        </div>
+      </nav>
+
+      <section>
+        <label for="input-file" id="drop-area">
+            <input type="file" accept="image/jpg" id="input-file" hidden>
+            <div id="img-view">
+                <img src="{{url_for('static', filename='upload.png')}}"/>
+                <p>Drag and drop or click to upload an image</p>
+                <span>Upload an image from desktop</span>
+                <span></span>
+            </div>
+        </label>
+
+        <button type="button" id="submit-button">Make Prediction</button>
+        <h3 id="prediction-result"></h3>
+        <button type="button" id="reset-button">Reset</button>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../static/index.js"></script>
+</body>
+</html>
