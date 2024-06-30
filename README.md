@@ -6,7 +6,7 @@ The project serves as a practical demonstration of applying deep learning techni
 
 <img width=1000 src = 'https://projects.smartinternz.com/cdn/shop/files/5.Brain-tumour-1440x720.jpg?v=1702460420'>
 
-<img width=450px src = 'reports/loss.jpg'><img width=450px src = 'reports/accuracy.jpg'>
+<img width=400px src = 'reports/loss.jpg'><img width=400px src = 'reports/accuracy.jpg'>
 
 
 
