@@ -1,13 +1,13 @@
 # Brain Tumor Detection
 
+<img src = 'https://img.freepik.com/premium-vector/drawing-brain-with-word-brain-it_951778-68038.jpg'>
+
 This repository aims to implement a Convolutional Neural Network (CNN) for brain tumor detection. The project includes a Python-based CNN model trained on a dataset of brain MRI scans to classify images as either tumor-present or tumor-absent. Additionally, a user-friendly interface is provided to allow easy interaction with the trained model. This interface enables users to upload MRI scans and visualize predictions. The data  is from https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection. 
 
 The project serves as a practical demonstration of applying deep learning techniques to medical image analysis, specifically for brain tumor detection, with accessibility in mind through a user-friendly interface.
 
-<img width=1000 src = 'https://projects.smartinternz.com/cdn/shop/files/5.Brain-tumour-1440x720.jpg?v=1702460420'>
 
 <img width=400px src = 'reports/loss.jpg'><img width=400px src = 'reports/accuracy.jpg'>
-
 
 
 **Goal**
