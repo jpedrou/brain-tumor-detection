@@ -3,3 +3,4 @@ data/*
 src/uploads/*
 !src/uploads/.gitkeep
 model.h5
+venv
